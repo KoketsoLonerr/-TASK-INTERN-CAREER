@@ -1,0 +1,31 @@
+Name,Owner,Stars,Forks,URL,Description
+public-apis,public-apis,277431,31159,https://github.com/public-apis/public-apis,A collective list of free APIs
+awesome-python,vinta,196075,24591,https://github.com/vinta/awesome-python,"A curated list of awesome Python frameworks, libraries, software and resources"
+Python,TheAlgorithms,175227,43754,https://github.com/TheAlgorithms/Python,All Algorithms implemented in Python
+Python-100-Days,jackfrued,146015,51038,https://github.com/jackfrued/Python-100-Days,Python - 100天从新手到大师
+transformers,huggingface,119402,23902,https://github.com/huggingface/transformers,"🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX."
+HelloGitHub,521xueweihan,81571,9651,https://github.com/521xueweihan/HelloGitHub,":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub."
+langchain,langchain-ai,75325,11407,https://github.com/langchain-ai/langchain,⚡ Building applications with LLMs through composability ⚡
+django,django,75245,30871,https://github.com/django/django,The Web framework for perfectionists with deadlines.
+pytorch,pytorch,74903,20565,https://github.com/pytorch/pytorch,Tensors and Dynamic neural networks in Python with strong GPU acceleration
+fastapi,tiangolo,67465,5705,https://github.com/tiangolo/fastapi,"FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+flask,pallets,65578,16130,https://github.com/pallets/flask,The Python micro framework for building web applications.
+awesome-machine-learning,josephmisiti,62447,14507,https://github.com/josephmisiti/awesome-machine-learning,"A curated list of awesome Machine Learning frameworks, libraries and software."
+devops-exercises,bregman-arie,61213,13246,https://github.com/bregman-arie/devops-exercises,"Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions"
+keras,keras-team,60222,19532,https://github.com/keras-team/keras,Deep Learning for humans
+cpython,python,58059,28771,https://github.com/python/cpython,The Python programming language
+scikit-learn,scikit-learn,57205,25083,https://github.com/scikit-learn/scikit-learn,scikit-learn: machine learning in Python
+manim,3b1b,56040,5625,https://github.com/3b1b/manim,Animation engine for explanatory math videos
+PayloadsAllTheThings,swisskyrepo,54965,13929,https://github.com/swisskyrepo/PayloadsAllTheThings,A list of useful payloads and bypass for Web Application Security and Pentest/CTF
+gpt4free,xtekky,52170,12774,https://github.com/xtekky/gpt4free,The official gpt4free repository | various collection of powerful language models
+gpt_academic,binary-husky,51206,6660,https://github.com/binary-husky/gpt_academic,"为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。"
+localstack,localstack,51063,3867,https://github.com/localstack/localstack,💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
+face_recognition,ageitgey,50936,13340,https://github.com/ageitgey/face_recognition,The world's simplest facial recognition api for Python and the command line
+requests,psf,50923,9310,https://github.com/psf/requests,"A simple, yet elegant, HTTP library."
+scrapy,scrapy,49961,10389,https://github.com/scrapy/scrapy,"Scrapy, a fast high-level web crawling & scraping framework for Python."
+Real-Time-Voice-Cloning,CorentinJ,49731,8482,https://github.com/CorentinJ/Real-Time-Voice-Cloning,Clone a voice in 5 seconds to generate arbitrary speech in real-time
+llama,facebookresearch,48929,8413,https://github.com/facebookresearch/llama,Inference code for LLaMA models
+you-get,soimort,48849,9410,https://github.com/soimort/you-get,:arrow_double_down: Dumb downloader that scrapes the web
+faceswap,deepfakes,48315,12899,https://github.com/deepfakes/faceswap,Deepfakes Software For All
+privateGPT,imartinez,47011,6255,https://github.com/imartinez/privateGPT,"Interact with your documents using the power of GPT, 100% privately, no data leaks"
+sherlock,sherlock-project,46376,5940,https://github.com/sherlock-project/sherlock,🔎 Hunt down social media accounts by username across social networks
