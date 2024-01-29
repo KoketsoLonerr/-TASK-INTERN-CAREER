@@ -1,62 +1,61 @@
 
-```markdown
-# LinkedIn Job Scraper
 
-This is a Python script that scrapes data from the LinkedIn website and saves it to a CSV file. It uses the Requests and Beautiful Soup libraries for web scraping, and the pandas library for data processing. It also incorporates automation by scheduling the script to run at specific intervals using the schedule library.
+```markdown
+# GitHub Trending Repositories Scraper
+
+This Python script utilizes the GitHub API to fetch information about trending repositories and saves it to a CSV file. It includes automation by scheduling the script to run at specific intervals using the schedule library.
 
 ## Requirements
 
-To run this script, you need to have Python 3 and the following libraries installed:
-
-- Requests
-- Beautiful Soup
-- pandas
-- schedule
-
-You can install them using pip:
+To run this script, ensure you have Python 3 and the required libraries installed. You can install them using pip:
 
 ```bash
 pip install requests
-pip install beautifulsoup4
 pip install pandas
 pip install schedule
 ```
 
 ## Usage
 
-To use this script, you need to specify the URL of the website to scrape, which is currently set to:
+To use this script, modify the parameters within the script to customize the search criteria based on your needs.
 
 ```python
-url = "https://www.linkedin.com/jobs/search/?keywords=software%20development"
+# Set the parameters for the API request (e.g., get trending Python repositories)
+params = {
+    'q': 'language:python',
+    'sort': 'stars',
+    'order': 'desc'
+}
 ```
 
-You can change this URL to any other LinkedIn job search page that you want to scrape.
+You can adjust the language, sorting, and order parameters to filter repositories based on your preferences.
 
-You also need to specify the time interval for running the script, which is currently set to:
+Specify the time interval for running the script:
 
 ```python
-schedule.every().day.at("10:00").do(scrape_data)
+# Schedule the function to run every 10 minutes
+schedule.every(10).minutes.do(scrape_github_trending)
 ```
 
-This means that the script will run every day at 10:00 AM. You can change this time to any other valid value, such as "09:30", "12:00", or "23:59".
-
-To run the script, simply execute it from the command line:
+This example schedules the script to run every 10 minutes.
+Run the script from the command line:
 
 ```bash
-python linkedin_job_scraper.py
+python main.py
 ```
 
-The script will scrape the data from the website and save it to a CSV file named "linkedin_jobs.csv" in the same directory. It will also print a message indicating the status of the scraping process.
+The script will fetch data from the GitHub API and save it to a CSV file named "github_trending_repos.csv" in the same directory. It will also print a message indicating the status of the scraping process.
 
 ## Output
 
 The output CSV file will contain the following columns:
 
-- Title: The job title
-- Company: The company name
-- Location: The job location
-- Description: The job description
-- URL: The job URL
+- Name: Repository name
+- Owner: Repository owner
+- Stars: Number of stars
+- Forks: Number of forks
+- URL: Repository URL
+- Description: Repository description
 
 ## License
 
@@ -64,6 +63,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Author
 Mmamonwana Marble Tjatji <tjatjikm99@gmail.com>
-
-
 ```
+
+
